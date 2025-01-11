@@ -1,0 +1,39 @@
+h2 {
+    color: #2C3E50;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+}
+
+i {
+    color: #2C3E50;
+}
+
+.star {
+    position: relative;
+    color: #2C3E50;
+}
+
+.star::before,
+.star::after {
+    content: "";
+    position: absolute;
+    width: 4.688rem; 
+    height: 4px;
+    background-color: #2C3E50;
+    z-index: 99;
+}
+
+.star::before {
+    top: .6875rem;
+    right: 16.375rem;
+}
+
+.star::after {
+    left: 16.375rem;
+    top: .6875rem;
+}
+
+.button-color {
+    background-color: #1ABC9C;
+}
